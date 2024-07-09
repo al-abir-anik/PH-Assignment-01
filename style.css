@@ -72,14 +72,12 @@ nav button {
   cursor: pointer;
 }
 
-
-
 /*          whyWD section Style       */
 
-.whyWD_section{
+.whyWD_section {
   width: 1520px;
   height: 1860px;
-  background-color: rgba(13,19,33,2%);
+  background-color: rgba(13, 19, 33, 2%);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -87,22 +85,24 @@ nav button {
   justify-content: space-around;
 }
 
-.whyWD_header{
+.whyWD_header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.whyWD_header h2{
+.whyWD_header h2 {
   font-size: 42px;
   margin-bottom: 32px;
 }
-.whyWD_header p{
+.whyWD_header p {
   width: 1135px;
   font-size: 22px;
   text-align: center;
 }
 
-.whyWD_box1, .whyWD_box2, .whyWD_box3{
+.whyWD_box1,
+.whyWD_box2,
+.whyWD_box3 {
   width: 1260px;
   height: 446px;
   padding: 64px;
@@ -111,33 +111,73 @@ nav button {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-
 }
-.whyWD_box1 h5, .whyWD_box2 h5, .whyWD_box3 h5{
+.whyWD_box1 h5,
+.whyWD_box2 h5,
+.whyWD_box3 h5 {
   width: 634px;
   font-size: 32px;
   font-weight: bold;
-  color: rgba(13,19,33,70%);
-} 
-.whyWD_box1 p, .whyWD_box2 p, .whyWD_box3 p{
+  color: rgba(13, 19, 33, 70%);
+}
+.whyWD_box1 p,
+.whyWD_box2 p,
+.whyWD_box3 p {
   width: 625px;
   font-size: 22px;
-} 
-.whyWD_box1 button, .whyWD_box2 button, .whyWD_box3 button{
+}
+.whyWD_box1 button,
+.whyWD_box2 button,
+.whyWD_box3 button {
   width: 228px;
   height: 62px;
   font-size: 26px;
   margin-top: 22px;
   color: #0d1321;
   cursor: pointer;
-} 
-.whyWD_box1 div, .whyWD_box2 div, .whyWD_box3 div{
+}
+.whyWD_box1 div,
+.whyWD_box2 div,
+.whyWD_box3 div {
   display: flex;
   flex-direction: column;
   gap: 22px;
 }
-.whyWD_box1 img, .whyWD_box2 img, .whyWD_box3 img{
+.whyWD_box1 img,
+.whyWD_box2 img,
+.whyWD_box3 img {
   width: 365px;
   height: 320px;
 }
 
+/*      My Inspiration Section    */
+
+.mi_section {
+  width: 1520px;
+  height: 1030px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mi_section div {
+  width: 1132px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.mi_section h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.mi_section p {
+  font-size: 22px;
+  text-align: center;
+}
+.mi_section iframe {
+  margin: 42px;
+  border-radius: 22px;
+}
