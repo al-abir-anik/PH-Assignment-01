@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: monospace;
 }
 
@@ -32,6 +33,7 @@ nav button {
 .hero_section {
   width: 100%;
   height: 652px;
+  margin-bottom: 98px;
   background-image: url(assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,3 +71,73 @@ nav button {
   margin-top: 10px;
   cursor: pointer;
 }
+
+
+
+/*          whyWD section Style       */
+
+.whyWD_section{
+  width: 1520px;
+  height: 1860px;
+  background-color: rgba(13,19,33,2%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.whyWD_header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whyWD_header h2{
+  font-size: 42px;
+  margin-bottom: 32px;
+}
+.whyWD_header p{
+  width: 1135px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.whyWD_box1, .whyWD_box2, .whyWD_box3{
+  width: 1260px;
+  height: 446px;
+  padding: 64px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+
+}
+.whyWD_box1 h5, .whyWD_box2 h5, .whyWD_box3 h5{
+  width: 634px;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(13,19,33,70%);
+} 
+.whyWD_box1 p, .whyWD_box2 p, .whyWD_box3 p{
+  width: 625px;
+  font-size: 22px;
+} 
+.whyWD_box1 button, .whyWD_box2 button, .whyWD_box3 button{
+  width: 228px;
+  height: 62px;
+  font-size: 26px;
+  margin-top: 22px;
+  color: #0d1321;
+  cursor: pointer;
+} 
+.whyWD_box1 div, .whyWD_box2 div, .whyWD_box3 div{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.whyWD_box1 img, .whyWD_box2 img, .whyWD_box3 img{
+  width: 365px;
+  height: 320px;
+}
+
