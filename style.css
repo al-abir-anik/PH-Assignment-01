@@ -182,11 +182,9 @@ nav button {
   border-radius: 22px;
 }
 
-
-
 /*      My Current Target Section    */
 
-.myCT_section{
+.myCT_section {
   width: 1520px;
   height: 612px;
   margin: 0 auto;
@@ -196,59 +194,163 @@ nav button {
   justify-content: space-between;
 }
 
-.myCT_header{
+.myCT_header {
   width: 1132px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
 }
-.myCT_header h2{
+.myCT_header h2 {
   font-size: 42px;
 }
-.myCT_header p{
+.myCT_header p {
   font-size: 22px;
   text-align: center;
 }
 
-.myCT_boxes{
+.myCT_boxes {
   display: flex;
   gap: 50px;
 }
-.myCT_html img, .myCT_css img, .myCT_js img{
+.myCT_html img,
+.myCT_css img,
+.myCT_js img {
   width: 74px;
   height: 74px;
 }
-.myCT_html h3, .myCT_css h3, .myCT_js h3{
+.myCT_html h3,
+.myCT_css h3,
+.myCT_js h3 {
   font-size: 32px;
   color: #0d1321;
   margin: 32px 0 12px 0;
 }
-.myCT_html p, .myCT_css p, .myCT_js p{
+.myCT_html p,
+.myCT_css p,
+.myCT_js p {
   width: 378px;
   font-size: 22px;
   color: #0d1321;
   margin-bottom: 32px;
 }
-.myCT_html a, .myCT_css a, .myCT_js a{
+.myCT_html a,
+.myCT_css a,
+.myCT_js a {
   font-size: 22px;
   font-weight: bold;
   color: #0d1321;
-  
 }
-.myCT_html, .myCT_css, .myCT_js{
+.myCT_html,
+.myCT_css,
+.myCT_js {
   width: 484px;
   height: 398px;
   padding: 52px;
   border-radius: 22px;
-  
 }
-.myCT_html{
+.myCT_html {
   background-color: rgba(255, 76, 30, 5%);
 }
-.myCT_css{
+.myCT_css {
   background-color: rgba(0, 76, 232, 5%);
 }
-.myCT_js{
+.myCT_js {
   background-color: rgba(255, 223, 0, 5%);
+}
+
+
+
+
+/*         My Next Target Section      */
+
+
+.myNT_section{
+  width: 1520px;
+  height: 1152px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myNT_header{
+  width: 1132px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.myNT_header h2 {
+  font-size: 42px;
+}
+.myNT_header p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.myNT_boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.myNT_react img{
+  width: 126px;
+  height: 112px;
+  margin-right: 124px;
+}
+.myNT_node img {
+  width: 190px;
+  height: 142px;
+  margin-right: 60px;
+}
+.myNT_mongo img {
+  width: 142px;
+  height: 118px;
+  margin-right: 108px;
+}
+
+.myNT_react img,
+.myNT_node img, 
+.myNT_mongo img{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.myNT_react h3,
+.myNT_node h3,
+.myNT_mongo h3 {
+  font-size: 32px;
+  color: #0d1321;
+  margin-bottom: 12px;
+}
+.myNT_react p,
+.myNT_node p,
+.myNT_mongo p {
+  width: 1150px;
+  font-size: 22px;
+  color: #0d1321;
+  margin-bottom: 32px;
+  line-height: 36px;
+}
+.myNT_react a,
+.myNT_node a,
+.myNT_mongo a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0d1321;
+}
+.myNT_react,
+.myNT_node,
+.myNT_mongo {
+  width: 1520px;
+  height: 290px;
+  padding: 52px;
+  border: 1px solid rgba(13,19,33,15%);
+  border-radius: 22px;
+  display: flex;
 }
