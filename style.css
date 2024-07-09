@@ -181,3 +181,74 @@ nav button {
   margin: 42px;
   border-radius: 22px;
 }
+
+
+
+/*      My Current Target Section    */
+
+.myCT_section{
+  width: 1520px;
+  height: 612px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myCT_header{
+  width: 1132px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.myCT_header h2{
+  font-size: 42px;
+}
+.myCT_header p{
+  font-size: 22px;
+  text-align: center;
+}
+
+.myCT_boxes{
+  display: flex;
+  gap: 50px;
+}
+.myCT_html img, .myCT_css img, .myCT_js img{
+  width: 74px;
+  height: 74px;
+}
+.myCT_html h3, .myCT_css h3, .myCT_js h3{
+  font-size: 32px;
+  color: #0d1321;
+  margin: 32px 0 12px 0;
+}
+.myCT_html p, .myCT_css p, .myCT_js p{
+  width: 378px;
+  font-size: 22px;
+  color: #0d1321;
+  margin-bottom: 32px;
+}
+.myCT_html a, .myCT_css a, .myCT_js a{
+  font-size: 22px;
+  font-weight: bold;
+  color: #0d1321;
+  
+}
+.myCT_html, .myCT_css, .myCT_js{
+  width: 484px;
+  height: 398px;
+  padding: 52px;
+  border-radius: 22px;
+  
+}
+.myCT_html{
+  background-color: rgba(255, 76, 30, 5%);
+}
+.myCT_css{
+  background-color: rgba(0, 76, 232, 5%);
+}
+.myCT_js{
+  background-color: rgba(255, 223, 0, 5%);
+}
