@@ -259,13 +259,9 @@ nav button {
   background-color: rgba(255, 223, 0, 5%);
 }
 
-
-
-
 /*         My Next Target Section      */
 
-
-.myNT_section{
+.myNT_section {
   width: 1520px;
   height: 1152px;
   margin: 0 auto;
@@ -275,7 +271,7 @@ nav button {
   justify-content: space-between;
 }
 
-.myNT_header{
+.myNT_header {
   width: 1132px;
   display: flex;
   flex-direction: column;
@@ -290,13 +286,13 @@ nav button {
   text-align: center;
 }
 
-.myNT_boxes{
+.myNT_boxes {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.myNT_react img{
+.myNT_react img {
   width: 126px;
   height: 112px;
   margin-right: 124px;
@@ -313,8 +309,8 @@ nav button {
 }
 
 .myNT_react img,
-.myNT_node img, 
-.myNT_mongo img{
+.myNT_node img,
+.myNT_mongo img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -350,20 +346,17 @@ nav button {
   width: 1520px;
   height: 290px;
   padding: 52px;
-  border: 1px solid rgba(13,19,33,15%);
+  border: 1px solid rgba(13, 19, 33, 15%);
   border-radius: 22px;
   display: flex;
 }
 
-
-
-
-
 /*           Support Section        */
 
-.support_section{
+.support_section {
   width: 1520px;
   height: 416px;
+  margin: 0 auto;
   border-radius: 22px;
   padding: 86px 64px;
   display: flex;
@@ -374,19 +367,19 @@ nav button {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.support_section h2{
+.support_section h2 {
   font-size: 42px;
   color: #fff;
   text-align: center;
   margin-bottom: 22px;
 }
-.support_section p{
+.support_section p {
   font-size: 22px;
   color: #fff;
   text-align: center;
 }
 
-#text{
+#text {
   width: 730px;
   height: 74px;
   border-radius: 12px;
@@ -397,12 +390,12 @@ nav button {
   font-size: 24px;
 }
 
-#text::placeholder{
+#text::placeholder {
   font-size: 22px;
   color: rgba(13, 19, 33, 40%);
 }
 
-#submit{
+#submit {
   width: 160px;
   height: 74px;
 }
@@ -414,4 +407,33 @@ input[type="submit"] {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+/*           Footer style        */
+
+footer {
+  width: 100%;
+  height: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 200px;
+  background-color: rgba(13, 19, 33, 3%);
+}
+
+footer p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+footer div {
+  width: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 48px;
+  height: 48px;
 }
