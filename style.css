@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: monospace;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -75,10 +75,9 @@ nav button {
   color: #fff;
   transition: 0.2s ease-out;
 }
-.hero_text button:hover{
-  background-color: rgb(13, 19, 33,70%);
+.hero_text button:hover {
+  background-color: rgb(13, 19, 33, 70%);
 }
-
 
 /*          whyWD section Style       */
 
@@ -382,6 +381,7 @@ nav button {
   margin-bottom: 22px;
 }
 .support_section p {
+  width: 806px;
   font-size: 22px;
   color: #fff;
   text-align: center;
