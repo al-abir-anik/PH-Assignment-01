@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: monospace;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /*          Header Style (Nav)        */
 
@@ -64,13 +67,18 @@ nav button {
 .hero_text button {
   width: 244px;
   height: 65px;
-  font-size: 20px;
   background-color: #0d1321;
-  color: #fff;
   border-radius: 8px;
   margin-top: 10px;
   cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.2s ease-out;
 }
+.hero_text button:hover{
+  background-color: rgb(13, 19, 33,70%);
+}
+
 
 /*          whyWD section Style       */
 
